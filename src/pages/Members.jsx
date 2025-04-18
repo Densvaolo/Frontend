@@ -1,9 +1,6 @@
 import React from 'react'
 import ModalButton from '../partials/components/ModalButton'
 
-
-
-
 const Members = () => {
     return (
         <div id="members">
@@ -15,4 +12,4 @@ const Members = () => {
     )
 }
 
-export default Members
+export default Members 
