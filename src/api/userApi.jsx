@@ -1,4 +1,4 @@
-const API_URL = "https://localhost:7183/api/users";
+const API_URL = "https://dsvarts-api25-epdghdb8grheecd0.swedencentral-01.azurewebsites.net/api/users";
 
 export async function getUsers() {
     try {

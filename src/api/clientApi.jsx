@@ -1,6 +1,6 @@
 export async function getClients() {
     try {
-        const response = await fetch("https://localhost:7183/api/clients", {
+        const response = await fetch("https://dsvarts-api25-epdghdb8grheecd0.swedencentral-01.azurewebsites.net/api/clients", {
             headers: {
                 "Content-Type": "application/json",
                 "X-Api-Key": "MyPrivateKey123"

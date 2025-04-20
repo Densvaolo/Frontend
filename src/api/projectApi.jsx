@@ -1,5 +1,5 @@
 const API_KEY = "MyPrivateKey123";
-const API_URL = "https://localhost:7183/api/projects";
+const API_URL = "https://dsvarts-api25-epdghdb8grheecd0.swedencentral-01.azurewebsites.net/api/projects";
 
 export async function getProjects() {
     try {
