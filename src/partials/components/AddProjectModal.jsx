@@ -19,8 +19,11 @@ const AddProjectModal = ({ isOpen, onClose, onSubmit, initialValues }) => {
                 borderRadius: '16px',
                 padding: '2rem',
                 width: '90%',
-                maxWidth: '500px'
+                maxWidth: '500px',
+                maxHeight: '90vh',
+                overflowY: 'auto'
             }}>
+
                 <div className="modal-header" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
                     <h2 className="h3">{initialValues ? 'Edit Project' : 'Add Project'}</h2>
                     <button onClick={onClose} className="btn-close" style={{ fontSize: '1.3rem', border: 'none', background: 'transparent' }}></button>
